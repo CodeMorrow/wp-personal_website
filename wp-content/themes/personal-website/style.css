@@ -1,0 +1,314 @@
+/*
+Theme Name: Personal Website
+Author: John Morrow
+Version: 1.0
+*/
+
+
+.Site{
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* --------------------  CSS for header  --------------------------- */
+
+.header {
+	background-color: #003399;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-shadow: 2px 2px black;
+	order: 0;
+	border-bottom: 3px solid black;
+	font-family: 'Alegreya SC', serif;
+
+}
+
+.header__title {
+	font-size: 32px;
+}
+/* --------------------  CSS for _nav.php  --------------------------- */
+
+.nav {
+	display: flex;
+	justify-content: center;
+	border-bottom: 2px solid #19194d;
+	order:1;
+}
+
+.nav li{
+	cursor: pointer;
+    margin: 5px 30px;
+    color: #003399;
+    font-size: 18px;
+    font-family: 'Monda', sans-serif;
+    list-style: none;
+}
+
+.active li{
+	cursor: pointer;
+    padding: 5px 30px;
+    font-weight: bold;
+	color: #00b36b;
+ }
+
+.nav li:visited {
+	color: #003399;
+}
+
+.nav li:hover {
+	color: #00b36b;
+}
+
+/* --------------------  CSS for the Body  --------------------------- */
+
+.body {
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+	background-color: lightgray; 
+	order:2;
+	flex-direction: column;
+}
+
+#flexbox1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	order: 1;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* --------------------------- Picture of me ------------------ */
+ .me{
+ 	border: solid 2px black;
+ 	border-radius: 25%;
+ 	box-shadow: 0px 0px 5px 2px black;
+ }
+
+/* ---------------------------- Articles CSS ----------- */
+ .content {
+ 	justify-content: center;
+ 	max-width: 120vh;
+ }
+ 
+ .newspaper {
+ 	margin-left: 32px;
+ 	width: 250px;
+ 	border: solid 2px black;
+ 	border-radius: 50%;
+ 	box-shadow: 0px 0px 5px 2px black;
+ }
+
+ .articleList a:visited {
+	color: #003399;
+}
+
+.articleList a:hover {
+	color: #00b36b;
+}
+/* ---------------------------- Games CSS ----------- */
+ .gameList{
+ 	cursor: pointer;
+    padding: 5px 30px;
+    color: #003399;
+    list-style: none;
+    width: 150px;
+}
+
+.gameList a:visited {
+	color: #003399;
+}
+
+.gameList a:hover {
+	color: #00b36b;
+}
+ /*-------------------------- Footer CSS -----------------*/
+.footer {
+	display: flex;
+	flex: 1;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+	order:99;
+	margin: 25px
+}
+
+.footer__link{
+
+}
+
+.footer__link__img {
+	width: 50px;
+	margin: 0px 25px;
+	border-radius: 15%;
+}
+/*-------------------------------- RPS CSS ----------------------------*/
+.rpslogo{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+label > input {
+	visibility: hidden;
+	position: absolute;
+}
+
+label  > input + img {
+	cursor: pointer;
+	border: 4px solid transparent;
+}
+
+label > input:checked + img {
+	border: 4px solid #00cc00;
+}
+
+label#rpslogo2 > input:checked + img {
+	border: 4px solid #0000cc;
+}
+.number_of_players {
+	font-size: 18px;
+}
+
+.rpsSelectItem {
+	font-size: 18px;
+}
+
+#player1SelectItem {
+	color: #00cc00;
+}
+
+#player2SelectItem {
+	color: #0000cc
+}
+
+.rpsbutton {
+	font-size: xx-large;
+}
+
+/* ------------------------------------ TTT CSS ---------------------- */
+#number_of_players {
+	display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+#ttt{
+	border-radius: 8px;
+}
+.ticTacToe__title{
+	font-size: 32px;
+	margin: 5px;
+}
+
+.board {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	vertical-align: center;
+	flex-wrap: wrap;
+	align-content: center;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 10px 10px 0 0;
+	
+}
+
+.ticTacToe {
+	display: flex;
+	justify-content: center;
+	width: 330px;
+	height: 330px;
+	padding: 5px;
+	border: 5px solid black;
+	background-color: blue;
+}
+
+.ticTacToe__row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.ticTacToe__square {
+	display: flex;
+	width: 100px;
+	height: 100px;
+	border: 2px solid darkblue;
+	color: darkblue;
+	font-size: 80px;
+	font-weight: 100;
+	text-decoration: none;
+	justify-content: center;
+	background-color: lightblue;
+}
+
+.ticTacToe__row a{
+	text-decoration: none;
+}
+
+.ticTacToe__info {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 330px;
+	height: 115px;
+	padding: 5px;
+	border: 5px solid black;
+	border-top: 0px;
+	background-color: darkgray;
+	border-radius: 0 0 10px 10px;
+}
+
+.ticTacToe__results {
+	display: flex;
+	font-size: 24px;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgray;
+	width: 65%;
+	margin-bottom: -12px;
+	color: darkblue;
+}
+
+.ticTacToe__mark{
+	width: 100px;
+}
+
+.ticTacToe__winner{
+	font-size: 64px;
+}
+
+.playAgainButton {
+	font-size: xx-large;
+}
+
+/* ------------------------------------ article CSS ---------------------- */
+
+#eight {
+	display: flex;
+	margin:25px;
+}
+
+.definition {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.define {
+	font-size: 14px;
+}
+
+.cssImage {
+	width: 120vh;
+}	
