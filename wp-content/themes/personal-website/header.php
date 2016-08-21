@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<meta name="viewport" content="width=device-width">
-		<link href="<?php bloginfo('template_directory');?>/style.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Alegreya+SC|Droid+Sans|Monda:700" rel="stylesheet">
 
 		<title><?php bloginfo('name'); ?></title>
@@ -17,7 +16,7 @@
 		<h1 class="header__title"><?php bloginfo('name'); ?></h1>
 	</header>
 	<nav class="nav">
-			<?php wp_list_pages('&title_li='); ?>
+			<?php wp_nav_menu(array('theme_location'=>'primary')); ?>
 		</nav>
 
-<div id=flexbox1>
+<div class=flexbox1>

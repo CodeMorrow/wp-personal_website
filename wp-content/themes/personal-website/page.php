@@ -1,11 +1,9 @@
 <?php get_header(); ?>
 
-	<?php 
-		if ( have_posts() ) : while ( have_posts() ) : the_post();
+	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-			get_template_part( 'content', get_post_format() );
+		<?php get_template_part( 'content', get_post_format() ); ?>
 
-		endwhile; endif; 
-	?>
+	<?php endwhile; endif; ?>
 
 <?php get_footer(); ?>
