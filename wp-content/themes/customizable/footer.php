@@ -18,7 +18,7 @@
       
       <!--Link to My Github Page-->
       <div id="github" class="footer__link">
-          <a class="social_media" href="https://github.com/CodeMorrow" target="_blank"><img class="footer__link__img" src="http://localhost:8888/wp-personal_website/wp-content/uploads/2016/08/github-white.svg" alt="Github"></a>
+          <a class="social_media" href="https://github.com/CodeMorrow" target="_blank"><img class="footer__link__img" src="http://localhost:8888/wp-personal_website/wp-content/uploads/2016/08/github.png" alt="Github"></a>
       </div>
 
       <!--Link to My LinkedIn Page-->
