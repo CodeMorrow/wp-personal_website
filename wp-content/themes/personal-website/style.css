@@ -143,10 +143,6 @@ Version: 1.0
 	margin: 25px
 }
 
-.footer__link{
-
-}
-
 .footer__link__img {
 	width: 50px;
 	margin: 0px 25px;
@@ -311,4 +307,4 @@ label#rpslogo2 > input:checked + img {
 
 .cssImage {
 	width: 120vh;
-}	
+}
