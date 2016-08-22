@@ -13,7 +13,7 @@
       
       <!--Link to My Twitter Page-->
       <div id="twitter" class="footer__link">
-          <a class="social_media" href="https://twitter.com/Code_Morrow" target="_blank"><img class="footer__link__img" src="http://localhost:8888/wp-personal_website/wp-content/uploads/2016/08/twitter.png" alt="Twitter"></a>
+          <a class="social_media" href="https://twitter.com/CodeMorrow" target="_blank"><img class="footer__link__img" src="http://localhost:8888/wp-personal_website/wp-content/uploads/2016/08/twitter.png" alt="Twitter"></a>
        </div>
       
       <!--Link to My Github Page-->
